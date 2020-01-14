@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/Front-End-Quiz/static/css/main.4e3792c0.chunk.css",
-    "main.js": "/Front-End-Quiz/static/js/main.e1f72d7d.chunk.js",
-    "main.js.map": "/Front-End-Quiz/static/js/main.e1f72d7d.chunk.js.map",
+    "main.js": "/Front-End-Quiz/static/js/main.a28c483e.chunk.js",
+    "main.js.map": "/Front-End-Quiz/static/js/main.a28c483e.chunk.js.map",
     "runtime-main.js": "/Front-End-Quiz/static/js/runtime-main.c2d3ce8c.js",
     "runtime-main.js.map": "/Front-End-Quiz/static/js/runtime-main.c2d3ce8c.js.map",
     "static/js/2.df34d9d2.chunk.js": "/Front-End-Quiz/static/js/2.df34d9d2.chunk.js",
     "static/js/2.df34d9d2.chunk.js.map": "/Front-End-Quiz/static/js/2.df34d9d2.chunk.js.map",
     "index.html": "/Front-End-Quiz/index.html",
-    "precache-manifest.28206310261e8b8f3fbbece94234b89e.js": "/Front-End-Quiz/precache-manifest.28206310261e8b8f3fbbece94234b89e.js",
+    "precache-manifest.ea623099ba85351ae4864ea45d48edc2.js": "/Front-End-Quiz/precache-manifest.ea623099ba85351ae4864ea45d48edc2.js",
     "service-worker.js": "/Front-End-Quiz/service-worker.js",
     "static/css/main.4e3792c0.chunk.css.map": "/Front-End-Quiz/static/css/main.4e3792c0.chunk.css.map",
     "static/js/2.df34d9d2.chunk.js.LICENSE": "/Front-End-Quiz/static/js/2.df34d9d2.chunk.js.LICENSE"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.c2d3ce8c.js",
     "static/js/2.df34d9d2.chunk.js",
     "static/css/main.4e3792c0.chunk.css",
-    "static/js/main.e1f72d7d.chunk.js"
+    "static/js/main.a28c483e.chunk.js"
   ]
 }
