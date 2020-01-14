@@ -57,6 +57,7 @@ class Home extends Component {
           <Card
           question={this.state.currentCard.q}
           answers={this.state.currentCard.ans}
+          color={this.state.currentCard.color}
           />
         </div>
         <div className="button-row">

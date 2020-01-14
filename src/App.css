@@ -47,7 +47,7 @@ h1 {
 /* card */
 
 .card-container {
-  padding: 40px;
+  padding-top: 140px;
   cursor: pointer;
   height: 400px;
   width: 600px;
@@ -58,13 +58,17 @@ h1 {
 }
 
 .card {
-  padding: 20px;
+  /* padding: 20px; */
   height: 400px;
   width: 600px;
   position: absolute;
-  border: 4px solid rgba(159,159,247,1);
+  /* border: 4px solid rgba(159,159,247,1); */
   transform-style: preserve-3d;
   transition: all 0.4s ease-in-out;
+  -webkit-box-shadow: 9px 13px 62px -43px rgba(0,0,0,0.77);
+  -moz-box-shadow: 9px 13px 62px -43px rgba(0,0,0,0.77);
+  box-shadow: 9px 13px 62px -43px rgba(0,0,0,0.77);
+  border-radius: 4px;
 }
 
 .card:hover {
@@ -79,7 +83,6 @@ h1 {
   backface-visibility: hidden;
   position: absolute;
   overflow: hidden;
-  background-color: rgba(255, 251, 251, 1);
 }
 
 .card .back {
@@ -97,10 +100,46 @@ h1 {
 }
 
 .answer-container {
-  padding: 20px;
+  padding: 20px 40px;
   font-family: 'Open Sans', sans-serif;
 }
 
 .answer {
   padding-top: 20px;
+  z-index: 100;
+  line-height: 1.8rem;
+  /* position: absolute; */
+}
+
+.line {
+  border: 1px solid lightblue;
+  width: 100%;
+  opacity: 0.25;
+  /* position: absolute; */
+}
+
+.button-container {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.btn {
+  padding: 5px 10px;
+  border: 2px solid rgba(159,159,247,1);
+  color: #fff;
+  background-color: rgba(159,159,247,1);
+  font-size: 18px;
+  font-family: 'Open Sans', sans-serif;
+  text-transform: uppercase;
+  border-radius: 4px;
+  letter-spacing: 0.04rem;
+}
+
+.btn:hover {
+  background-color: white;
+  color: rgba(159,159,247,1);
+}
+
+.btn:focus {
+  outline:0;
 }
