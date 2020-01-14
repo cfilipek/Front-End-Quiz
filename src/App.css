@@ -1,4 +1,11 @@
+body {
+  background: rgb(248,193,255);
+  background: linear-gradient(90deg, rgba(248,193,255,1) 0%, rgba(251,255,191,1) 38%, rgba(145,235,254,1) 100%);
+}
 
+.container {
+  margin-left: 280px;
+}
 
 h1 {
   font-family: 'Courier Prime', monospace;
@@ -7,8 +14,8 @@ h1 {
 }
 
 .splash-container {
-  background: rgb(2,0,36);
-  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+  background: rgb(248,193,255);
+  background: linear-gradient(90deg, rgba(248,193,255,1) 0%, rgba(159,159,247,1) 35%, rgba(0,212,255,1) 100%);
   width: 100%;
   z-index: 200;
   height: 100vh;
@@ -36,3 +43,6 @@ h1 {
   font-size: 12px;
   color: #fff;
 }
+
+
+
