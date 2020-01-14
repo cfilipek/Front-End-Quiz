@@ -10,7 +10,9 @@ import About from './components/About';
 
 const App = () => (
   <Router>
-    <Header/>
+    <div className="mobile">
+      <Header/>
+    </div>
     <Route  exact path='/' component={Home}></Route>
     <Route  path='/about' component={About}></Route>
     <Footer/>
