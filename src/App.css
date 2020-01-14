@@ -44,5 +44,63 @@ h1 {
   color: #fff;
 }
 
+/* card */
 
+.card-container {
+  padding: 40px;
+  cursor: pointer;
+  height: 400px;
+  width: 600px;
+  perspective: 800px;
+  position: relative;
+  margin: auto;
+  transition: ease-in;
+}
 
+.card {
+  padding: 20px;
+  height: 400px;
+  width: 600px;
+  position: absolute;
+  border: 4px solid rgba(159,159,247,1);
+  transform-style: preserve-3d;
+  transition: all 0.4s ease-in-out;
+}
+
+.card:hover {
+  transform: rotateY(180deg);
+  transition: all 0.4s ease-in-out;
+}
+
+.card .front {
+  height: 400px;
+  text-align: center;
+  width: 600px;
+  backface-visibility: hidden;
+  position: absolute;
+  overflow: hidden;
+  background-color: rgba(255, 251, 251, 1);
+}
+
+.card .back {
+  height: 400px;
+  width: 600px;
+  backface-visibility: hidden;
+  transform: rotateY(180deg);
+  background-color: rgba(255, 251, 251, 1);
+}
+
+.question {
+  padding-top: 140px;
+  font-family: 'Courier Prime', monospace;
+  font-size: 30px;
+}
+
+.answer-container {
+  padding: 20px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.answer {
+  padding-top: 20px;
+}

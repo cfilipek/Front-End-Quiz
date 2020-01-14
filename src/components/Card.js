@@ -9,9 +9,11 @@ const Card = (props) => {
           <div className="question">{props.question}</div>
         </div>
         <div className="back">
+          <div className="answer-container">
           {props.answers.map((answer) => (
             <div className="answer">{answer}</div>
           ))}
+          </div>
         </div>
       </div>
     </div>

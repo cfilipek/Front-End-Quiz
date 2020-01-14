@@ -2,6 +2,7 @@ import React, { Component }  from 'react';
 import SplashPage from './SplashPage';
 import Card from './Card';
 import DrawCard from './DrawCard';
+import {connect} from 'react-redux';
 
 
 class Home extends Component {
@@ -9,18 +10,13 @@ class Home extends Component {
   state = {
     display: "block",
     displayHome: "none",
-    cards: [
-      {id: 1, q: "How?", ans: ["bc"]},
-      {id: 2, q: "Why?", ans: ["bc", "i"]}
-    ],
     currentCard: {}
   }
 
   componentWillMount() {
-    const currentCards = this.state.cards;
+    const currentCards = this.props.cards;
 
     this.setState({
-      cards: currentCards,
       currentCard: this.getRandomCard(currentCards)
     });
   }
@@ -33,7 +29,7 @@ class Home extends Component {
 
   updateCard = () => {
 
-    const currentCards = this.state.cards;
+    const currentCards = this.props.cards;
 
     this.setState({
       currentCard: this.getRandomCard(currentCards)
@@ -71,5 +67,10 @@ class Home extends Component {
     </div>)}
 }
 
+const mapStateToProps = (state) => {
+  return{
+    cards: state.cards
+  };
+}
 
-export default Home;
+export default connect(mapStateToProps, null)(Home);
