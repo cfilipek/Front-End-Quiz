@@ -20,6 +20,26 @@ export default function() {
       {id: 5,
       color: "#FECC68",
        q: "falsey values",
-       ans: ["Boolean false, undefined, null, empty strings, 0", "Evaluate to false", "Truthy -- everything else"]}
+       ans: ["Boolean false, undefined, null, empty strings, 0", "Evaluate to false", "Truthy -- everything else"]},
+      {id: 6,
+      color: "#68F9FE",
+       q: "global variables",
+       ans: ["What are some global variables you use and thoughts on the topic?", "The DOM does-- window and document object", "One of the worse standards -- can be manipulated by anything adding risk to your program"]},
+       {id: 7,
+      color: "#6883FE",
+       q: "this",
+       ans: ["Essentially allows us to access current context"]},
+       {id: 8,
+      color: "#FE68B8",
+       q: "== vs ===",
+       ans: ["== loosely equals -- evaluates value", "=== strictly equals -- evaluates type and value, have better control of data in program"]},
+       {id: 9,
+        color: "#79D5C3",
+         q: 'coercion - 3 + 2 + "7"',
+         ans: ['What might happen? Comparing/converting of data types. Inverts numbers to strings. String "57"']},
+       {id: 10,
+        color: "#FF5733",
+         q: 'typeof',
+         ans: ['Checks type of data value passed in','Array would return object (gotcha) can use isArray()']}
 	]
 }
